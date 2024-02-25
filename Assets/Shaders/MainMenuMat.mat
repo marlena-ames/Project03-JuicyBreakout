@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MainMenuMatte
+  m_Name: MainMenuMat
   m_Shader: {fileID: -6465566751694194690, guid: d820bc8982cbf2043b320a0b78105d29, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -72,6 +72,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_622e9072dff846b8bb1ce0369ca7b77f_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b4fab360f323d3f48ace9fb5a9880dd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7044f6a84d774ec5b1f11d997134a71a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b4fab360f323d3f48ace9fb5a9880dd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
@@ -95,6 +107,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _mainColor: {r: 0.25584137, g: 1, b: 0, a: 0}
-    - _secondaryColor: {r: 1, g: 0, b: 0, a: 0}
+    - _mainColor: {r: 0.34720576, g: 1, b: 0.105345845, a: 0}
+    - _secondaryColor: {r: 0.20001459, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
