@@ -1,27 +1,26 @@
-# Exercise-03d-Shaders
+# Break Out
+Brick breaker game - 2/25/24
 
-Exercise for MSCH-C220
-
-The final step adding "juicy" features to a simple brick-breaker game.
-
+## Description
+Avoid falling into the fire swamp beast's mouth before you destroy all of the bricks. Destroy all of the bricks to move on to the next level.
 
 ## Implementation
-
-Built using Godot 2022.3
-
+- Color Scheme
+- Tweening of ball
+- Sound effects
+- Music
+- Animated falling bricks
+- Comet trail
+- Particles on paddle
+- Added eyes to the ball that blink
+- Animated water on the paddle
 
 ## References
- * [Juice it or lose it — a talk by Martin Jonasson & Petri Purho](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
- * [Puzzle Pack 2, provided by kenney.nl](https://kenney.nl/assets/puzzle-pack-2)
- * [Background Elements Redux, provided by kenney.nl](https://kenney.nl/assets/background-elements-redux)
- * [Open Color open source color scheme](https://yeun.github.io/open-color/)
- * [League Gothic Typeface](https://www.theleagueofmoveabletype.com/league-gothic)
- * [Orbitron Typeface](https://www.theleagueofmoveabletype.com/orbitron)
-
+* [League Gothic Typeface](https://www.theleagueofmoveabletype.com/league-gothic)
+* [Puzzle Pack 2, provided by kenney.nl](https://kenney.nl/assets/puzzle-pack-2)
 
 ## Future Development
-
-Power-ups, etc.
+More levels?
 
 ## Created by
 Marlena Ames
