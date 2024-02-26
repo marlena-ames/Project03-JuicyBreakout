@@ -5288,6 +5288,7 @@ GameObject:
   - component: {fileID: 736353182259118345}
   - component: {fileID: 8435644214202633255}
   - component: {fileID: 5324716301203632657}
+  - component: {fileID: 1232172836937362263}
   m_Layer: 0
   m_Name: right eye
   m_TagString: Untagged
@@ -5305,7 +5306,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.28, y: 0.197, z: -0.044456314}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1930656808348795837}
@@ -5351,7 +5352,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 7d6b3227a1bbfbc42b023f9ec0f521b6, type: 3}
+  m_Sprite: {fileID: 131664076, guid: 78d289fb12f67804ead207f2a2766fd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5393,6 +5394,27 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 90702fb13ebb9ef40aa9cb7f906e8cd9, type: 2}
+--- !u!95 &1232172836937362263
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7528814268962790921}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a905b92c9e46616459a7792fd28c492c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8637201751703337646
 GameObject:
   m_ObjectHideFlags: 0
@@ -5511,6 +5533,7 @@ GameObject:
   - component: {fileID: 5343200857032990079}
   - component: {fileID: 7059667150319506588}
   - component: {fileID: 7743141896867195635}
+  - component: {fileID: 8642677167051508359}
   m_Layer: 0
   m_Name: left eye
   m_TagString: Untagged
@@ -5528,7 +5551,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.208, y: 0.197, z: -0.044456314}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1930656808348795837}
@@ -5574,7 +5597,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 7d6b3227a1bbfbc42b023f9ec0f521b6, type: 3}
+  m_Sprite: {fileID: 131664076, guid: 78d289fb12f67804ead207f2a2766fd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5616,3 +5639,24 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 90702fb13ebb9ef40aa9cb7f906e8cd9, type: 2}
+--- !u!95 &8642677167051508359
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8749117455279794405}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a905b92c9e46616459a7792fd28c492c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
